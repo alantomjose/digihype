@@ -1,9 +1,10 @@
 import React from 'react'
+import Header from './Header';
 
 export default function Homepage() {
     return (
         <div>
-           <h2>Home</h2> 
+           <Header/>
         </div>
     )
 }

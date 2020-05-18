@@ -7,7 +7,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Homepage from './Components/Homepage';
+import Homepage from './Components/Homepage/Homepage';
 import About from './Components/About';
 import Navbar from './Components/Navbar';
 
@@ -20,6 +20,7 @@ function App() {
        <Route exact path="/"><Homepage/> </Route>
        <Route exact path="/about"><About/> </Route>
      </Router>
+    
      
     </div>
   );
