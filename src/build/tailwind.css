@@ -606,6 +606,12 @@ video {
   }
 }
 
+.hero{
+  height: 200px;
+  width: 450px;
+  color: aqua;
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
@@ -6654,6 +6660,10 @@ video {
 
 .font-mono {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-heading {
+  font-family: Nunito, Georgia;
 }
 
 .font-hairline {
@@ -21030,6 +21040,10 @@ video {
 
   .sm\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-heading {
+    font-family: Nunito, Georgia;
   }
 
   .sm\:font-hairline {
@@ -35409,6 +35423,10 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-heading {
+    font-family: Nunito, Georgia;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -49786,6 +49804,10 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-heading {
+    font-family: Nunito, Georgia;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -64161,6 +64183,10 @@ video {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-heading {
+    font-family: Nunito, Georgia;
   }
 
   .xl\:font-hairline {

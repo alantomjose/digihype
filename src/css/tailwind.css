@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 
-
+.hero{
+    height: 200px;
+    width: 450px;
+    color: aqua;
+}
 
 @tailwind utilities;

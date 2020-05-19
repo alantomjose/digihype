@@ -5,7 +5,10 @@ module.exports = {
       colors: {
         headerGray: '#f7fafc',
 
-      }
+      },
+      fontFamily: {
+             'heading': ['Nunito', 'Georgia']
+            }
     },
   },
   variants: {

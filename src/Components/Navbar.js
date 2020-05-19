@@ -15,12 +15,12 @@ export default function Navbar() {
     
 
     return (
-        <div>
-          <header className="bg-black text-white   sm:flex sm:justify-between sm:pt-3">
+        <div className="fixed w-full">
+          <header className="bg-gray-800 text-white    sm:flex sm:justify-between sm:pt-3">
           <div className="flex justify-between items-center py-3 sm:py-0">
                 {/* logo */}
                 <div>
-                    <h1 className=" text-xl px-4 font-bold sm:pb-3 sm:pl-10 ">Digi HYPE</h1>
+                    <h1 className=" text-xl px-4 font-bold sm:pb-3 sm:pl-10 font-heading">HYPE Digital</h1>
                 </div>
                 
                 {/* hamburger */}
