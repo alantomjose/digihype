@@ -3,10 +3,10 @@ import React from 'react'
 export default function ContactForm() {
     return (
         <div className="">
-        <div className="skewedtop bg-black h-40 w-full "> </div>
+        <div className="skewedtop bg-black h-40 w-full contactbox "> </div>
         
 
-        <div className=" py-12 px-2 sm:px-20 md:px-40 lg:px-40  bg-black" >
+        <div className=" py-12 px-2 sm:px-20 md:px-40 lg:px-40  bg-black contactbox" >
             <div className="bg-gray-200 py-12  px-20 m-3 sm:mx-0 lg:mx-48 rounded-lg text-center">
                 <h1 className="text-2xl font-heading">Contact Us</h1>
                 
@@ -28,7 +28,7 @@ export default function ContactForm() {
             </div>
         </div>
 
-        <div className="skewedbtm h-40 w-full bg-black"> </div>
+        <div className="skewedbtm h-40 w-full bg-black contactbox"> </div>
 
         </div>
     )

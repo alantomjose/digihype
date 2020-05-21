@@ -11,7 +11,7 @@ export default function Header() {
         <div className="">
            <div className="h-40  ">
                 <div className="w-full bg-headerGray">
-                    <div className="  py-32  sm:py-40  sm:mx-24 bg-headerGray " >
+                    <div className="  py-24 sm:py-32  sm:py-40  sm:mx-24 bg-headerGray " >
                         <div className="flex justify-around">
                             <div className="max-w-lg mx-4">
                                 <h1 className="text-6xl pt-12 font-heading  text-gray-800 my-2"> HYPE Digital </h1>
