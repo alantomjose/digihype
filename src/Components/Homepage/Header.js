@@ -20,7 +20,7 @@ export default function Header() {
                                 magna aliqua. Ut enim ad minim veniam, quis nostrud 
                                 exercitation 
                                 </p>
-                                <button class="my-8 bg-gray-600 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded-full">
+                                <button class="btn bg-gray-600 hover:bg-gray-500 text-white">
                                         Learn More
                                 </button>
                             </div>
@@ -31,7 +31,7 @@ export default function Header() {
                     </div>
                 </div>
                 <div className="relative overflow-hidden pb-2/3  ">
-                    <img className="a w-full hidden sm:inline " src={curvyLine}/>
+                    <img className="a w-full hidden sm:inline  "  src={curvyLine}/>
                     <img className="a w-full sm:hidden  " src={curvyLinesm}/>
                 </div>
                
