@@ -22,14 +22,12 @@ export default function Header() {
                   {" "}
                   HYPE Digital{" "}
                 </h1>
-                <p className="text-gray-600 ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation
+                <p className="text-gray-900 text-2xl ">
+                  Top Class Marketing And Advertising At Your Fingertips.
                 </p>
-                <button class="btn bg-gray-600 hover:bg-gray-500 text-white">
+                {/* <button class="btn bg-gray-600 hover:bg-gray-500 text-white">
                   Learn More
-                </button>
+                </button> */}
               </div>
               <div className="hidden lg:block hero pt-20 ">
                 <img classNem="hero" src={hero} />

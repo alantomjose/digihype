@@ -15,11 +15,11 @@ export default function Homepage() {
       {/* <div className="block h-48"></div> */}
       {/* <div className="block h-48"></div> */}
       <Services />
-      <Clients />
-      {/* <Clientsnew /> */}
+      {/* <Clients /> */}
+      <Clientsnew />
       <ContactForm />
 
-      <div className="h-48 bg-gray-700 w-full mt-20"></div>
+      {/* <div className="h-48 bg-gray-700 w-full mt-20"></div> */}
     </div>
   );
 }

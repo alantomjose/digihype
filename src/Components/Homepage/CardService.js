@@ -8,14 +8,10 @@ export default function CardService(props) {
   // }
   //     )
   return (
-    <div className="flex justify-end flex-left sm:flex-col h-full mx-12 py-6 my-4 sm:my-8 sm:text-center  justify-center rounded-lg  cardt animate w-9/12 md:w-4/12 xl:w-3/12">
+    <div className="flex justify-end flex-left bg-gray-800 bg-opacity-25 sm:flex-col h-full mx-12 py-6 my-4 sm:my-8 sm:text-center justify-center rounded-lg  cardt animate w-9/12 md:w-4/12 xl:w-3/12">
       <img className="h-12 sm:mx-auto mx-2" src={Wrench} />
-      <h1 className="sm:items-center pt-4 pb-2 text-xl text-white">
-        {props.title}
-      </h1>
-      <p className="text-sm text-white px-8 py-2 hidden sm:block">
-        {props.desc}
-      </p>
+      <h1 className="sm:items-center pt-4 pb-2 text-xl  ">{props.title}</h1>
+      <p className="text-sm  px-8 py-2 hidden sm:block">{props.desc}</p>
     </div>
   );
 }

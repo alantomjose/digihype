@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import "./build/tailwind.css";
-import "./css/Clientsnew.css";
+
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Homepage from "./Components/Homepage/Homepage";
 import About from "./Components/About";
