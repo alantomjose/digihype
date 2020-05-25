@@ -9,7 +9,7 @@ export default function Header() {
     <div className="">
       <div className="h-500 border-black border ">
         <div
-          className="w-full bg-fixed bg-center bg-cover h-screen "
+          className="w-screen bg-fixed bg-center bg-cover h-screen "
           style={{
             backgroundImage:
               "url('https://images.unsplash.com/photo-1530543787849-128d94430c6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')",
