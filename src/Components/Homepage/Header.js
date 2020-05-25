@@ -9,14 +9,14 @@ export default function Header() {
     <div className="">
       <div className="h-500 border-black border ">
         <div
-          className="w-full bg-fixed bg-center bg-cover h-screen "
+          className="w-screen bg-fixed bg-center bg-cover h-screen "
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1530543787849-128d94430c6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')",
+              "url('https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80')",
           }}
         >
           <div className="  py-24 sm:py-32  sm:py-40  sm:mx-24  ">
-            <div className="flex justify-around">
+            <div className="flex flex-col ml-20 justify-around">
               <div className="max-w-lg mx-4">
                 <h1 className="text-6xl pt-12 font-heading  text-gray-800 my-2">
                   {" "}

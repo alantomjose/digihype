@@ -5,14 +5,17 @@ import ScrollMagic from "scrollmagic";
 export default function Services() {
   return (
     <div
-      className="w-full bg-fixed bg-center bg-cover h-screen"
+      className="w-screen bg-fixed bg-center bg-cover h-screen"
       style={{
         backgroundImage:
-          "url('https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')",
+          "url('https://images.unsplash.com/photo-1565530995968-2e619c04a8a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=60')",
       }}
     >
       <div className=" container mx-auto pt-10  ">
-        <h2 className="text-5xl  text-center font-heading" id="test">
+        <h2
+          className="text-5xl text-gray-200 text-center font-heading"
+          id="test"
+        >
           What We Do
         </h2>
         <div className="flex justify-around flex-row flex-wrap  sm:mx-16 py-10">
