@@ -21,27 +21,33 @@ export default function Services() {
         <div className="">
           <div className="flex justify-around  flex-row flex-wrap h-full sm:mx-16 sm:py-10 py-2">
             <CardService
+              num="1"
               title="Public Relations "
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
             />
             <CardService
+              num="2"
               title="Digital Marketing "
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
             />
             <CardService
+              num="3"
               title="Social Media Management "
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
             />
 
             <CardService
+              num="4"
               title="Influencer marketing  "
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
             />
             <CardService
+              num="5"
               title="SEO "
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
             />
             <CardService
+              num="6"
               title="Talent Management "
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
             />
