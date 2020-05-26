@@ -31,7 +31,7 @@ export default class Clientsnew extends Component {
         }}
       >
         <div className="text-6xl pt-5 ml-10 font-heading">Our Clients</div>
-        <div id="carouseldiv " className="w-full  pt-20 pl-20">
+        <div id="carouseldiv " className=" w-1/2 pt-20 pl-20">
           <div>
             <Slider {...settings}>
               <div>
