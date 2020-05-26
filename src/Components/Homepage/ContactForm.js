@@ -13,7 +13,7 @@ export default function ContactForm() {
       <div className=" h-40 w-screen  "> </div>
 
       <div className=" py-12 px-2 sm:px-20 md:px-40 lg:px-40  ">
-        <div className="bg-red-400 py-12  px-20 m-3 sm:mx-0 lg:mx-48 rounded-lg text-center">
+        <div className="bg-red-400 py-12  sm:px-20 m-3 sm:mx-0 lg:mx-48 rounded-lg text-center">
           <h1 className="text-2xl font-heading">Contact Us</h1>
 
           <div class="mb-3 pt-2 text-left  mx-5">
