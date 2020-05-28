@@ -29,7 +29,7 @@ app.post("/api/form", (req, res) => {
 
     let mailOptions = {
       from: "hypedigital",
-      to: "Email_Here_Bro",
+      to: "stecsys@gmail.com",
       subject: "Contact Us Form",
       text: req.body.message,
       html: htmlEmail,
