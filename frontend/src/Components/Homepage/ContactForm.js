@@ -16,18 +16,28 @@ export default class ContactForm extends Component {
   }
 
   handleChange = (e) => {
-    this.setState({ [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    this.setState({ [name]: value });
   };
 
   async handleSubmit(e) {
+    alert("Submission Successfull");
     e.preventDefault();
-    console.log("submitted");
+    // console.log("submitted");
     const { firstname, lastname, email, message } = this.state;
     const form = await axios.post("/api/form", {
       firstname,
       lastname,
       email,
       message,
+    });
+    console.log("submitted");
+
+    this.setState({
+      firstname: "",
+      lastname: "",
+      email: "",
+      message: "",
     });
   }
 
@@ -64,6 +74,7 @@ export default class ContactForm extends Component {
                     type="text"
                     placeholder="Jane"
                     name="firstname"
+                    value={this.state.firstname}
                     onChange={this.handleChange}
                   />
                   <p class="text-red-100 text-xs italic">
@@ -83,6 +94,7 @@ export default class ContactForm extends Component {
                     type="text"
                     placeholder="Doe"
                     name="lastname"
+                    value={this.state.lastname}
                     onChange={this.handleChange}
                   />
                 </div>
@@ -100,6 +112,7 @@ export default class ContactForm extends Component {
                     id="email"
                     type="email"
                     name="email"
+                    value={this.state.email}
                     onChange={this.handleChange}
                   />
                   <p class="text-gray-400 text-xs italic">
@@ -119,6 +132,7 @@ export default class ContactForm extends Component {
                     class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 sm:h-48 h-12 resize-none"
                     id="message"
                     name="message"
+                    value={this.state.message}
                     onChange={this.handleChange}
                   ></textarea>
                   <p class="text-gray-400 text-xs italic">

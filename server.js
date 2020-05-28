@@ -7,8 +7,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.post("/api/form", (req, res) => {
-  // console.log(req.body);
+  // console.log(req.body.firstname);
   nodemailer.createTestAccount((err, account) => {
+    // console.log("check");
     const htmlEmail = `
     <h3>Contact Details</h3>
     <ul>
@@ -29,7 +30,7 @@ app.post("/api/form", (req, res) => {
 
     let mailOptions = {
       from: "hypedigital",
-      to: "stecsys@gmail.com",
+      to: "ashin.laurel@gmail.com",
       subject: "Contact Us Form",
       text: req.body.message,
       html: htmlEmail,
