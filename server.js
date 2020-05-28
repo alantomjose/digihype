@@ -28,8 +28,8 @@ app.post("/api/form", (req, res) => {
     });
 
     let mailOptions = {
-      from: "hype",
-      to: "ashinlaurel1999@gmail.com",
+      from: "hypedigital",
+      to: "Email_Here_Bro",
       subject: "Contact Us Form",
       text: req.body.message,
       html: htmlEmail,
