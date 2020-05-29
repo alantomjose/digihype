@@ -15,12 +15,12 @@ export default function Header() {
               <div className="hero w-full  h-auto  " id="hero">
                 <img className=" " src={hero} />
               </div>
-              <div className="max-w-lg mx-4 sm:pt-10 sm:pr-56 sm:mt-3 pt-5  ">
+              <div className="max-w-lg mx-4 sm:pt-10 sm:pr-10 sm:mt-3 pt-5  ">
                 <h1 className=" leading-none text-6xl sm:text-7xl font-heading text-gray-800   ">
                   {" "}
                   HYPE Digital{" "}
                 </h1>
-                <p className="text-gray-900 text-3xl text-base pt-1 sm:pt-0 ">
+                <p className="text-gray-900 text-2xl sm:text-3xl text-base pt-1 sm:pt-0 leading-tight">
                   We Make Brands Happen
                 </p>
                 {/* <button class="btn bg-gray-600 hover:bg-gray-500 text-white">
