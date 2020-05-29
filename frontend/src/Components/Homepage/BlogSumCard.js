@@ -1,28 +1,24 @@
-import React from 'react'
-import {Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function BlogSumCard(props) {
-    return (
-        <div>
-            <div className="shadow-lg my-8 mx-4 bg-gray-100 bg-opacity-50 postcard animate rounded ">
-                <div
-                  className="text-2xl leading-tight font-heading sm:text-3xl py-6 sm:px-20 px-8 "
-                //   dangerouslySetInnerHTML={{ __html: post.title.rendered }}
-                />
-                <div className="px-10 pb-6 sm:px-20 sm:pb-10 ">
-                  {/* <p >{post.excerpt.rendered} </p> */}
-                  <div
-                    className="pb-4"
-                    // dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}
-                  />
-                  <Link
-                    // to={id}
-                    className="bg-gray-700 rounded-full py-2 px-5 my-4 text-white"
-                  >
-                    Read Mode
-                  </Link>
-                </div>
-              </div>
+  return (
+    <div>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg cardt animate my-3">
+        <img
+          class="w-full h-auto object-fill"
+          src="https://images.unsplash.com/photo-1590755202874-2e48e32ed07a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2032&q=80"
+          alt="Sunset in the mountains"
+        />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus quia, nulla! Maiores et perferendis eaque,
+            exercitationem praesentium nihil.
+          </p>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
