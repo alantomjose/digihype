@@ -23,33 +23,35 @@ export default function Services() {
             <CardService
               num="1"
               title="Public Relations "
-              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+              desc="Need media presence for your brand? We bring PR excellence to you."
             />
             <CardService
               num="2"
               title="Digital Marketing "
-              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+              desc="Need media presence for your brand? We bring PR excellence to you."
             />
             <CardService
               num="3"
               title="Social Media Management "
-              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+              desc="Do you feel that your business is not reaching the intended audience?           
+              Well now it will, leave It to us. We will help you break the internet."
             />
 
             <CardService
               num="4"
               title="Influencer marketing  "
-              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+              desc="Do you feel that your business is not reaching the intended audience?           
+              Well now it will, leave It to us. We will help you break the internet."
             />
             <CardService
               num="5"
               title="SEO "
-              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+              desc="Authenticity is our virtue and we aim to provide you with quality content."
             />
             <CardService
               num="6"
               title="Talent Management "
-              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+              desc="At Hype Digital, you will find a heartfelt piece of us in everything that we deliver. As someone rightly said that talent hits a target no one else can hit."
             />
           </div>
         </div>

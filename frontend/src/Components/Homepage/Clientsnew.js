@@ -61,7 +61,7 @@ export default class Clientsnew extends Component {
                   src={vb}
                 />
               </div>
-              <div>
+              <div className="">
                 <img
                   className="relative sm:h-16 sm:mx-8 sm:my-12 h-10 mx-8 my-8 "
                   src={ps}
