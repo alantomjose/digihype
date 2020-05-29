@@ -52,7 +52,7 @@ export default function Navbar() {
           {/* logo */}
           <div>
             <h1
-              className=" text-blue-800 text-xl px-4 font-bold sm:pb-3 sm:pl-10 font-heading  "
+              className=" text-gray-200 text-xl px-4 font-bold sm:pb-3 sm:pl-10 font-heading  "
               id="smTitle"
             >
               HYPE Digital

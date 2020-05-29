@@ -8,8 +8,15 @@ module.exports = {
       },
       fontFamily: {
              'heading': ['Lovelo', 'Georgia']
+            },
+      fontSize: {
+    
+            '7xl': '5.5rem',
             }
     },
+    
+    
+    
   },
   variants: {
     backgroundColor: ['responsive','hover','focus','active']

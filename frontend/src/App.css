@@ -7,3 +7,11 @@
     font-family: 'Lovelo';
     src: url('./assets/fonts/Lovelo/Lovelo-Black.ttf');
 }
+
+.topbg {
+    background-image: url("./assets/img/bglaptop.jpg")
+  }
+
+#hero img{
+    width: 350px;
+}

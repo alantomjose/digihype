@@ -10,6 +10,7 @@ export default class Main extends Component {
         {
           title: { rendered: "Loading.." },
           excerpt: { rendered: "loading..." },
+          img:"img",
           slug: "test",
         },
       ],
@@ -22,7 +23,10 @@ export default class Main extends Component {
       .then((res) => {
         console.log(res.data);
         // console.log("worjs");
-        this.setState({ posts: res.data, page: this.state.page });
+        this.setState({ posts: res.data, 
+          page: this.state.page,
+          
+         });
       })
       .catch(function (err) {
         console.log(err);

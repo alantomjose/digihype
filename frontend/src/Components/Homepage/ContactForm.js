@@ -20,25 +20,27 @@ export default class ContactForm extends Component {
     this.setState({ [name]: value });
   };
 
-  async handleSubmit(e) {
+  handleSubmit(e) {
     alert("Submission Successfull");
     e.preventDefault();
     // console.log("submitted");
     const { firstname, lastname, email, message } = this.state;
-    const form = await axios.post("/api/form", {
+    const form = axios.post("/api/form", {
       firstname,
       lastname,
       email,
       message,
-    });
-    console.log("submitted");
+    }).then((res)=>{
+      console.log("submitted");
 
-    this.setState({
-      firstname: "",
-      lastname: "",
-      email: "",
-      message: "",
-    });
+      this.setState({
+        firstname: "",
+        lastname: "",
+        email: "",
+        message: "",
+      })
+    })
+    
   }
 
   render() {
