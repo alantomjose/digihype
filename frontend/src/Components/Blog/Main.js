@@ -31,29 +31,34 @@ export default class Main extends Component {
 
   nextPage = () => {
     axios
-      .get(`https://techcrunch.com/wp-json/wp/v2/posts?page=${this.state.page+1}`)
+      .get(
+        `https://techcrunch.com/wp-json/wp/v2/posts?page=${this.state.page + 1}`
+      )
       .then((res) => {
         console.log(res.data);
         // console.log("worjs");
-        this.setState({ posts: res.data, page: this.state.page +1 });
+        this.setState({ posts: res.data, page: this.state.page + 1 });
+        window.scrollTo(0, 0);
       })
       .catch(function (err) {
         console.log(err);
-      }); 
+      });
   };
 
   prevPage = () => {
-    
     axios
-      .get(`https://techcrunch.com/wp-json/wp/v2/posts?page=${this.state.page-1}`)
+      .get(
+        `https://techcrunch.com/wp-json/wp/v2/posts?page=${this.state.page - 1}`
+      )
       .then((res) => {
         console.log(res.data);
         // console.log("worjs");
-        this.setState({ posts: res.data, page: this.state.page -1 });
+        this.setState({ posts: res.data, page: this.state.page - 1 });
+        window.scrollTo(0, 0);
       })
       .catch(function (err) {
         console.log(err);
-      }); 
+      });
   };
 
   render() {
@@ -93,10 +98,26 @@ export default class Main extends Component {
           })}
         </div>
         <div className="flex justify-center py-10">
-        { this.state.page>1?(
-          <button onClick={()=>{this.prevPage()}} className="bg-gray-800 rounded-full py-2 px-5 mx-10 text-white">Previous</button>
-        ):<div/>}
-          <button onClick={()=>{this.nextPage()}}  className="bg-gray-800 rounded-full py-2 px-5 mx-10 text-white">Next</button>
+          {this.state.page > 1 ? (
+            <button
+              onClick={() => {
+                this.prevPage();
+              }}
+              className="bg-gray-800 rounded-full py-2 px-5 mx-10 text-white"
+            >
+              Previous
+            </button>
+          ) : (
+            <div />
+          )}
+          <button
+            onClick={() => {
+              this.nextPage();
+            }}
+            className="bg-gray-800 rounded-full py-2 px-5 mx-10 text-white"
+          >
+            Next
+          </button>
         </div>
       </div>
     );
