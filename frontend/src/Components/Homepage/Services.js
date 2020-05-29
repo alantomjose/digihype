@@ -5,13 +5,13 @@ import ScrollMagic from "scrollmagic";
 export default function Services() {
   return (
     <div
-      className="w-screen bg-fixed bg-center bg-cover h-screen overflow-hidden"
+      className="w-screen bg-fixed bg-center bg-cover h-screen overflow-y-auto "
       style={{
         backgroundImage:
           "url('https://images.unsplash.com/photo-1565530995968-2e619c04a8a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=60')",
       }}
     >
-      <div className=" container mx-auto pt-10   ">
+      <div className=" container mx-auto pt-10    ">
         <h2
           className="sm:text-5xl text-3xl text-gray-200 text-center font-heading"
           id="test"
