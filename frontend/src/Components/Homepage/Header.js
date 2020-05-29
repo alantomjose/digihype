@@ -10,8 +10,8 @@ export default function Header() {
     <div className="">
       <div className="  ">
         <div className="w-screen bg-fixed bg-left bg-cover h-screen  topbg bg-gray-200 ">
-          <div className="  py-48 sm:py-24 sm:mx-24   ">
-            <div className="flex flex-col sm:ml-20  ml-12 sm:mt-0 mt-0 justify-around items-center sm:items-start mr-8 fade">
+          <div className="  py-24 sm:py-24 sm:mx-24  ">
+            <div className="flex flex-col sm:ml-20   ml-12 sm:mt-0 mt-0 justify-around items-center sm:items-start mr-8 fade">
               <div className="hero w-full  h-auto  " id="hero">
                 <img className=" " src={hero} />
               </div>

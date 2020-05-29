@@ -25,7 +25,7 @@ export default class Main extends Component {
         // console.log("worjs");
         this.setState({ posts: res.data, 
           page: this.state.page,
-          
+
          });
       })
       .catch(function (err) {
@@ -68,7 +68,7 @@ export default class Main extends Component {
   render() {
     return (
       <div
-        className=" w-screen bg-fixed bg-center bg-cover h-full overflow-hidden"
+        className=" w-screen bg-fixed bg-center bg-cover  overflow-hidden"
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1502920970741-47c1bafc8d49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')",
