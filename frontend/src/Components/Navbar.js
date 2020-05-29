@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "../build/tailwind.css";
 import ScrollMagic from "scrollmagic";
+import {Link } from 'react-router-dom'
 
 export default function Navbar() {
   useEffect(() => {
@@ -15,7 +16,7 @@ export default function Navbar() {
     })
       .setClassToggle("#navbar", "bg-transparent")
       .setClassToggle("#navbar", "bg-gray-800")
-      // .setClassToggle('#dpdown','text-white')
+      // .setClassToggle('#smTitle','text-white')
       // .setClassToggle('#navbar','text-gray-700')
       .addTo(controller);
 
@@ -27,6 +28,7 @@ export default function Navbar() {
     })
       // .setClassToggle('#navbar','bg-transparent')
       // .setClassToggle('#navbar','bg-gray-800')
+      // .setClassToggle('#smTitle',"text-white")
       .setClassToggle("#dpdown", "text-white")
       .addTo(controller);
   }, []);
@@ -43,20 +45,22 @@ export default function Navbar() {
   };
 
   return (
-    <div className="fixed w-full z-50 ">
+    <div className="fixed w-full z-50 text-lg ">
       <header
-        className="bg-transparent text-gray-700   sm:flex sm:justify-between sm:pt-3"
+        className="bg-transparent text-gray-800   sm:flex sm:justify-between sm:pt-3"
         id="navbar"
       >
         <div className="flex justify-between items-center py-3 sm:py-0">
           {/* logo */}
           <div>
+          <a href="/">
             <h1
-              className=" text-gray-200 text-xl px-4 font-bold sm:pb-3 sm:pl-10 font-heading  "
+              className="  text-xl px-4 font-bold sm:pb-3 sm:pl-10 font-heading text-white "
               id="smTitle"
             >
               HYPE Digital
             </h1>
+            </a>
           </div>
 
           {/* hamburger */}
@@ -91,23 +95,29 @@ export default function Navbar() {
           className=" hidden  pb-4 sm:flex sm:justify-bottom sm:pr-10 dropdown animate"
           id="dpdown"
         >
+        <a
+            href="/"
+            className="block sm:px-3 px-2 py-1 m-1 hover:bg-gray-300 rounded"
+          >
+            Home
+          </a>
           <a
-            href="#"
+            href="#services"
             className="block sm:px-3 px-2 py-1 m-1 hover:bg-gray-300 rounded"
           >
             About Us
           </a>
           <a
-            href="#"
+            href="#contact"
             className="block sm:px-3 px-2 py-1 m-1 hover:bg-gray-300 rounded"
           >
             Contact
           </a>
           <a
-            href="#"
-            className="block sm:px-3 px-2 py-1 m-1 hover:bg-gray-300 rounded"
+            href="/blog"
+            className="block sm:px-3 px-2 py-1 m-1 bg-gray-700 text-white hover:bg-gray-300 hover:text-gray-900 rounded-full  "
           >
-            Order
+           <p className="px-2  "> BLOG </p> 
           </a>
         </div>
       </header>

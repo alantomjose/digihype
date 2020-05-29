@@ -8,11 +8,13 @@ import About from "./Components/About";
 import Navbar from "./Components/Navbar";
 import Main from "./Components/Blog/Main";
 import Post from "./Components/Blog/Post";
+import SocialMedia from "./Components/SocialMedia";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <SocialMedia/>
       <Router>
         <Route exact path="/">
           <Homepage />{" "}
