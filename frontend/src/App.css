@@ -1,0 +1,9 @@
+#post img{
+    width: 45%;
+    padding: 25px;
+    height: auto;
+}
+@font-face{
+    font-family: 'Lovelo';
+    src: url('./assets/fonts/Lovelo/Lovelo-Black.ttf');
+}
