@@ -7,7 +7,7 @@ module.exports = {
 
       },
       fontFamily: {
-             'heading': ['Nunito', 'Georgia']
+             'heading': ['Lovelo', 'Georgia']
             }
     },
   },

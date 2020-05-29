@@ -662,6 +662,15 @@ video {
   transform: scale(1.1);
 }
 
+.postcard{
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.postcard:hover{
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  transform: scale(1.01);
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
@@ -6713,7 +6722,7 @@ video {
 }
 
 .font-heading {
-  font-family: Nunito, Georgia;
+  font-family: Lovelo, Georgia;
 }
 
 .font-hairline {
@@ -21093,7 +21102,7 @@ video {
   }
 
   .sm\:font-heading {
-    font-family: Nunito, Georgia;
+    font-family: Lovelo, Georgia;
   }
 
   .sm\:font-hairline {
@@ -35474,7 +35483,7 @@ video {
   }
 
   .md\:font-heading {
-    font-family: Nunito, Georgia;
+    font-family: Lovelo, Georgia;
   }
 
   .md\:font-hairline {
@@ -49855,7 +49864,7 @@ video {
   }
 
   .lg\:font-heading {
-    font-family: Nunito, Georgia;
+    font-family: Lovelo, Georgia;
   }
 
   .lg\:font-hairline {
@@ -64236,7 +64245,7 @@ video {
   }
 
   .xl\:font-heading {
-    font-family: Nunito, Georgia;
+    font-family: Lovelo, Georgia;
   }
 
   .xl\:font-hairline {
