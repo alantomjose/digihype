@@ -29,7 +29,7 @@ export default function Post(props) {
           "url('https://images.unsplash.com/photo-1502920970741-47c1bafc8d49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')",
       }}
     >
-      <div className="mx-2 md:mx-12 lg:mx-32 item-center overflow-hidden">
+      <div className="mx-2 md:mx-12 lg:mx-32 item-center ">
         <div className="h-32 w-full  "> </div>
         <div className="shadow-lg my-24 bg-gray-100 bg-opacity-50 rounded ">
           <div
