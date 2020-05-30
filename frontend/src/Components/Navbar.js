@@ -15,7 +15,7 @@ export default function Navbar() {
     })
       .setClassToggle("#navbar", "bg-transparent")
       .setClassToggle("#navbar", "sm:bg-gray-900")
-      // .setClassToggle('#smTitle','text-white')
+
       // .setClassToggle('#navbar','text-gray-700')
       .addTo(controller);
 
@@ -25,6 +25,16 @@ export default function Navbar() {
       offset: -50,
     })
       .setClassToggle("#navbar", "bg-gray-900")
+      // .setClassToggle("#smTitle", "text-white")
+      .addTo(controller);
+
+    new ScrollMagic.Scene({
+      triggerElement: "#test",
+      // duration:100,
+      offset: -50,
+    })
+      // .setClassToggle("#navbar", "bg-gray-900")
+      .setClassToggle("#smTitle", "text-white")
       .addTo(controller);
 
     //   // .setClassToggle('#navbar','sm:bg-transparent')
@@ -59,13 +69,41 @@ export default function Navbar() {
           <div>
             <a href="/">
               <h1
-                className="  text-xl px-4 font-bold sm:pb-3 sm:pl-10 font-heading text-white "
+                className="  text-xl px-4 font-bold sm:pb-3 sm:pl-10 font-heading text-black"
                 id="smTitle"
               >
                 HYPE Digital
               </h1>
             </a>
           </div>
+          {/* <div className="block sm:hidden">
+            <ul className="flex flex-row justify-around ">
+              <li>
+                <a href="" className="text-2xl">
+                  {" "}
+                  <i className="fa m-2  fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" className=" text-2xl">
+                  {" "}
+                  <i className="fa m-2 fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" className=" text-2xl">
+                  {" "}
+                  <i className="fa m-1 fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" className=" text-2xl">
+                  {" "}
+                  <i className="fa m-1 fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div> */}
 
           {/* hamburger */}
           <div className="  sm:hidden animate" onClick={(e) => hamToggle(e)}>

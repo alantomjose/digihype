@@ -12,7 +12,7 @@ export default function BlogSum() {
     new ScrollMagic.Scene({
       triggerElement: "#blogstart",
       // duration:100,
-      // offset: -5,
+      offset: -25,
     })
       .setClassToggle("#blogheading", "opacity-100")
       .addTo(controller);
@@ -20,7 +20,7 @@ export default function BlogSum() {
     new ScrollMagic.Scene({
       triggerElement: "#blogstart",
       // duration:100,
-      // offset: -10,
+      offset: -25,
     })
 
       .setClassToggle("#blogcards", "opacity-100")
