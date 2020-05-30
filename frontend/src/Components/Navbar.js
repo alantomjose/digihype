@@ -53,7 +53,10 @@ export default function Navbar() {
     dropDown.classList.toggle("hidden");
     closeBtn.classList.toggle("hidden");
     hamburger.classList.toggle("hidden");
-    nav.classList.toggle("bg-gray-900");
+    if (!nav.classList.contains("bg-gray-900")) {
+      nav.classList.toggle("bg-gray-900");
+    }
+
     // nav.classList.toggle("bg-gray-800");
     // dropDown.classList.toggle("text-white")
   };
