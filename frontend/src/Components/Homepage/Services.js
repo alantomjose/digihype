@@ -3,6 +3,28 @@ import CardService from "./CardService";
 import ScrollMagic from "scrollmagic";
 
 export default function Services() {
+  useEffect(() => {
+    // init controller
+    var controller = new ScrollMagic.Controller();
+
+    new ScrollMagic.Scene({
+      triggerElement: "#services",
+      // duration:100,
+      // offset: -25,
+    })
+      .setClassToggle("#test", "opacity-100")
+      // .setClassToggle("#cardservice", "opacity-100")
+      .addTo(controller);
+
+    new ScrollMagic.Scene({
+      triggerElement: "#services",
+      // duration:100,
+      // offset: -10,
+    })
+      // .setClassToggle("#test", "opacity-100")
+      .setClassToggle("#cardservice", "opacity-100")
+      .addTo(controller);
+  }, []);
   return (
     <div
       id="services"
@@ -14,13 +36,16 @@ export default function Services() {
     >
       <div className=" container mx-auto pt-10    ">
         <h2
-          className="sm:text-5xl text-3xl text-gray-200 text-center font-heading"
+          className="sm:text-5xl text-3xl text-gray-200 text-center font-heading opacity-0 slowanimate"
           id="test"
         >
           What We Do
         </h2>
         <div className="">
-          <div className="flex justify-around  flex-row flex-wrap h-full sm:mx-16 sm:py-10 py-2">
+          <div
+            id="cardservice"
+            className="flex justify-around opacity-0 slowanimate flex-row flex-wrap h-full sm:mx-16 sm:py-10 py-2"
+          >
             <CardService
               num="1"
               title="Public Relations "
