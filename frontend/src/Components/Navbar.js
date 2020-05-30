@@ -49,12 +49,16 @@ export default function Navbar() {
     const closeBtn = document.querySelector(".closeButton");
     const hamburger = document.querySelector(".hamburger");
     const nav = document.querySelector("#navbar");
+    const title = document.querySelector("#smTitle");
 
     dropDown.classList.toggle("hidden");
     closeBtn.classList.toggle("hidden");
     hamburger.classList.toggle("hidden");
     if (!nav.classList.contains("bg-gray-900")) {
       nav.classList.toggle("bg-gray-900");
+    }
+    if (!title.classList.contains("text-white")) {
+      title.classList.toggle("text-white");
     }
 
     // nav.classList.toggle("bg-gray-800");
