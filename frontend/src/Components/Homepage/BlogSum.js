@@ -50,7 +50,7 @@ export default function BlogSum() {
       <div className="overflow-x-auto">
         <div
           id="blogcards"
-          className="opacity-0 slowanimate flex sm:justify-center justify-between items-around w-full sm:mt-24 "
+          className="opacity-0 slowanimate flex sm:justify-center justify-between items-around  sm:mt-24 "
         >
           <BlogSumCard
             title="The Coldest Sunset"

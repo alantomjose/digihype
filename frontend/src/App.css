@@ -30,9 +30,14 @@
 }
 
 /* #blogcards{
-    width: 1500px;
+    width: 1800px;
 } */
 #nextLogo {
   top: 40%;
   right: 2%;
+}
+
+#blogviewbtn {
+  bottom: 1%;
+  right: 25%;
 }
