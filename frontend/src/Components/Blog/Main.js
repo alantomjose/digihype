@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import alt from '../../Img/postAlt.jpg'
 
 export default class Main extends Component {
   constructor(props) {
@@ -82,12 +83,12 @@ export default class Main extends Component {
                 <div className="flex w-full flex-col sm:flex-row">
                   <div
                     id="theimagediv"
-                    className="sm:w-1/2 border border-black flex justify-center  "
+                    className="sm:w-1/2  flex justify-center  "
                   >
                     <img
                       id="postthumb"
                       className="rounded-lg object-cover object-center"
-                      src={post.jetpack_featured_media_url}
+                      src={post.jetpack_featured_media_url?post.jetpack_featured_media_url:alt}
                     />
                   </div>
                   <div id="content" className="sm:w-1/2">
