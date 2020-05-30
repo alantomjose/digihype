@@ -29,7 +29,7 @@ export default function BlogSum() {
   return (
     <div
       id="blogstart"
-      className="py-6 px-1 sm:px-8 h-screen  w-fixed bg-fixed bg-center bg-cover relative overflow-y-scroll"
+      className="py-6 px-1  h-screen  w-fixed bg-fixed bg-center bg-cover relative overflow-y-scroll"
       style={{
         backgroundImage:
           "url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')",
@@ -47,7 +47,7 @@ export default function BlogSum() {
       >
         Our Blog
       </h1>
-      <div className="overflow-x-auto ">
+      <div className="overflow-x-auto  ">
         <div
           id="blogcards"
           className="opacity-0 slowanimate flex sm:justify-center justify-between w-screen items-around  sm:mt-24 "
