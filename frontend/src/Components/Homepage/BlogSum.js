@@ -37,7 +37,7 @@ export default function BlogSum() {
     >
       <div
         id="nextLogo"
-        className=" hidden absolute text-4xl animate  font-heading text-yellow-300 "
+        className="absolute text-4xl animate sm:hidden font-heading text-yellow-300 "
       >
         <i className="fa m-1   fa-arrow-right"></i>
       </div>
@@ -50,7 +50,7 @@ export default function BlogSum() {
       <div className="overflow-x-auto">
         <div
           id="blogcards"
-          className="opacity-0 slowanimate flex justify-center items-around flex-wrap sm:mt-24 "
+          className="opacity-0 slowanimate flex sm:justify-center justify-between items-around flex-wrap sm:mt-24 "
         >
           <BlogSumCard
             title="The Coldest Sunset"
