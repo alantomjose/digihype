@@ -21,7 +21,7 @@ export default class Main extends Component {
     axios
       .get(`https://techcrunch.com/wp-json/wp/v2/posts?page=${this.state.page}`)
       .then((res) => {
-        console.log(res.data);
+        console.log(res.data[0].jetpack_featured_media_url);
         // console.log("worjs");
         this.setState({ posts: res.data, page: this.state.page });
       })
@@ -83,18 +83,22 @@ export default class Main extends Component {
                   className="text-2xl leading-tight font-heading sm:text-3xl py-6 sm:px-20 px-8 "
                   dangerouslySetInnerHTML={{ __html: post.title.rendered }}
                 />
-                <div className="px-10 pb-6 sm:px-20 sm:pb-10 ">
-                  {/* <p >{post.excerpt.rendered} </p> */}
-                  <div
-                    className="pb-4"
-                    dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}
-                  />
-                  <Link
-                    to={id}
-                    className="bg-gray-700 rounded-full py-2 px-5 my-4 text-white"
-                  >
-                    Read More
-                  </Link>
+                    
+                    <div className="px-10 pb-6 sm:px-20 sm:pb-10 ">
+                      {/* <p >{post.excerpt.rendered} </p> */}
+                      <div
+                        className="pb-4"
+                        dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}
+                      />
+                      <img id="postthumb"  className="rounded-lg" src={post.jetpack_featured_media_url}/>
+                
+                
+                    <Link
+                      to={id}
+                      className="bg-gray-700 rounded-full py-2 px-5 my-4 text-white" >
+                      Read More
+                    </Link>
+
                 </div>
               </div>
             );

@@ -14,7 +14,7 @@ export default function Navbar() {
       offset: -50,
     })
       .setClassToggle("#navbar", "bg-transparent")
-      .setClassToggle("#navbar", "bg-gray-800")
+      .setClassToggle("#navbar", "sm:bg-gray-800")
       // .setClassToggle('#smTitle','text-white')
       // .setClassToggle('#navbar','text-gray-700')
       .addTo(controller);
@@ -24,7 +24,7 @@ export default function Navbar() {
       // duration:100,
       offset: -50,
     })
-      // .setClassToggle('#navbar','bg-transparent')
+      // .setClassToggle('#navbar','sm:bg-transparent')
       // .setClassToggle('#navbar','bg-gray-800')
       // .setClassToggle('#smTitle',"text-white")
       .setClassToggle("#dpdown", "text-white")
@@ -36,16 +36,19 @@ export default function Navbar() {
     const dropDown = document.querySelector(".dropdown");
     const closeBtn = document.querySelector(".closeButton");
     const hamburger = document.querySelector(".hamburger");
+    const nav = document.querySelector("#navbar");
 
     dropDown.classList.toggle("hidden");
     closeBtn.classList.toggle("hidden");
     hamburger.classList.toggle("hidden");
+    // nav.classList.toggle("bg-gray-800");
+    // dropDown.classList.toggle("text-white")
   };
 
   return (
     <div className="fixed w-full z-50 text-lg ">
       <header
-        className="bg-transparent text-gray-800   sm:flex sm:justify-between sm:pt-3"
+        className="bg-gray-800 sm:bg-transparent text-gray-800   sm:flex sm:justify-between sm:pt-3"
         id="navbar"
       >
         <div className="flex justify-between items-center py-3 sm:py-0">
@@ -90,7 +93,7 @@ export default function Navbar() {
           </div>
         </div>
         <div
-          className=" hidden  pb-4 sm:flex sm:justify-bottom sm:pr-10 dropdown animate"
+          className=" hidden text-white pb-4 sm:flex sm:justify-bottom sm:pr-10 dropdown animate"
           id="dpdown"
         >
           <a
