@@ -47,7 +47,7 @@ export default function BlogSum() {
       <div className="overflow-x-auto">
       <div
         id="blogcards"
-        className="opacity-0 slowanimate flex sm:justify-center justify-between items-around flex-wrap sm:mt-24 "
+        className="opacity-0 slowanimate flex sm:justify-center justify-between w-screen items-around  sm:mt-24 "
       >
         <BlogSumCard
           title="The Coldest Sunset"
@@ -66,7 +66,7 @@ export default function BlogSum() {
         />
       </div>
       </div>
-      <div className=" text-center m-10 ">
+      <div id="blogviewbtn" className=" text-center m-10  absolute">
         <Link
           to="/blog"
           className="bg-gray-700 rounded-full py-2 px-5 text-white text-xl cardt animate"
