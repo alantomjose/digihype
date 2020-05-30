@@ -1,6 +1,12 @@
 import React, { useEffect } from "react";
 import CardService from "./CardService";
 import ScrollMagic from "scrollmagic";
+import Pr from "../../assets/img/publicrelations.png";
+import Dr from "../../assets/img/digitalmark.png";
+import Soc from "../../assets/img/social.png";
+import In from "../../assets/img/influencer.png";
+import Se from "../../assets/img/seo.png";
+import Tm from "../../assets/img/talentman.png";
 
 export default function Services() {
   useEffect(() => {
@@ -50,17 +56,20 @@ export default function Services() {
               num="1"
               title="Public Relations "
               desc="Need media presence for your brand? We bring PR excellence to you."
+              icn={Pr}
             />
             <CardService
               num="2"
               title="Digital Marketing "
               desc="Need media presence for your brand? We bring PR excellence to you."
+              icn={Dr}
             />
             <CardService
               num="3"
               title="Social Media Management "
               desc="Do you feel that your business is not reaching the intended audience?           
               Well now it will, leave It to us. We will help you break the internet."
+              icn={Soc}
             />
 
             <CardService
@@ -68,16 +77,19 @@ export default function Services() {
               title="Influencer marketing  "
               desc="Do you feel that your business is not reaching the intended audience?           
               Well now it will, leave It to us. We will help you break the internet."
+              icn={In}
             />
             <CardService
               num="5"
               title="SEO "
               desc="Authenticity is our virtue and we aim to provide you with quality content."
+              icn={Se}
             />
             <CardService
               num="6"
               title="Talent Management "
               desc="At Hype Digital, you will find a heartfelt piece of us in everything that we deliver. As someone rightly said that talent hits a target no one else can hit."
+              icn={Tm}
             />
           </div>
         </div>

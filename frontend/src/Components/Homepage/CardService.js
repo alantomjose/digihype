@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import SIcon from "../../Img/cardico.png";
-import Wrench from "../../Img/wrench.png";
+// import SIcon from "../../Img/cardico.png";
+// import Pr from "../../assets/img/publicrelations.png";
 
 export default function CardService(props) {
   // useEffect(() => {
@@ -35,7 +35,7 @@ export default function CardService(props) {
               sm:px-0 px-1 my-4 sm:my-8 sm:text-center justify-center rounded-lg 
                cardt animate w-9/12 md:w-4/12 xl:w-3/12 "
     >
-      <img className="sm:h-12 h-6  sm:mx-auto mx-2" src={Wrench} />
+      <img className="sm:h-12 h-6  sm:mx-auto mx-2" src={props.icn} />
       <h1 className="sm:items-center sm:pt-4 sm:pb-2 sm:text-xl text-base  ">
         {props.title}
       </h1>
