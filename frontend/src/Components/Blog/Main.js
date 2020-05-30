@@ -10,7 +10,7 @@ export default class Main extends Component {
         {
           title: { rendered: "Loading.." },
           excerpt: { rendered: "loading..." },
-          img:"img",
+          img: "img",
           slug: "test",
         },
       ],
@@ -23,10 +23,7 @@ export default class Main extends Component {
       .then((res) => {
         console.log(res.data);
         // console.log("worjs");
-        this.setState({ posts: res.data, 
-          page: this.state.page,
-
-         });
+        this.setState({ posts: res.data, page: this.state.page });
       })
       .catch(function (err) {
         console.log(err);
@@ -74,8 +71,10 @@ export default class Main extends Component {
             "url('https://images.unsplash.com/photo-1502920970741-47c1bafc8d49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')",
         }}
       >
+        <div className="text-center text-5xl mt-32 font-heading mb-10  ">
+          The Blog
+        </div>
         <div className="mx-2 md:mx-12 lg:mx-40 item-center text-gray-800  ">
-          <div className="h-32 w-full  "> </div>
           {this.state.posts.map((post, key) => {
             var id = "/post/" + post.id;
             return (
@@ -94,7 +93,7 @@ export default class Main extends Component {
                     to={id}
                     className="bg-gray-700 rounded-full py-2 px-5 my-4 text-white"
                   >
-                    Read Mode
+                    Read More
                   </Link>
                 </div>
               </div>

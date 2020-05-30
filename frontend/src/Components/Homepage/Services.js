@@ -5,7 +5,7 @@ import ScrollMagic from "scrollmagic";
 export default function Services() {
   return (
     <div
-    id="services"
+      id="services"
       className="w-screen bg-fixed bg-center bg-cover h-screen overflow-y-auto "
       style={{
         backgroundImage:

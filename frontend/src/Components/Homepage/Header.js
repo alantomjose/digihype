@@ -7,7 +7,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <div className="">
+    <div className="" id="header">
       <div className="  ">
         <div className="w-screen bg-fixed bg-left bg-cover h-screen  topbg bg-gray-200 ">
           <div className="  py-24 sm:py-24 sm:mx-24  ">

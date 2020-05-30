@@ -1,14 +1,13 @@
 import React, { useEffect } from "react";
 import "../build/tailwind.css";
 import ScrollMagic from "scrollmagic";
-import {Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   useEffect(() => {
     // init controller
     var controller = new ScrollMagic.Controller();
 
-    // create a scene
     new ScrollMagic.Scene({
       triggerElement: "#test",
       // duration:100,
@@ -20,7 +19,6 @@ export default function Navbar() {
       // .setClassToggle('#navbar','text-gray-700')
       .addTo(controller);
 
-    // create a scene
     new ScrollMagic.Scene({
       triggerElement: "#test",
       // duration:100,
@@ -53,13 +51,13 @@ export default function Navbar() {
         <div className="flex justify-between items-center py-3 sm:py-0">
           {/* logo */}
           <div>
-          <a href="/">
-            <h1
-              className="  text-xl px-4 font-bold sm:pb-3 sm:pl-10 font-heading text-white "
-              id="smTitle"
-            >
-              HYPE Digital
-            </h1>
+            <a href="/">
+              <h1
+                className="  text-xl px-4 font-bold sm:pb-3 sm:pl-10 font-heading text-white "
+                id="smTitle"
+              >
+                HYPE Digital
+              </h1>
             </a>
           </div>
 
@@ -95,7 +93,7 @@ export default function Navbar() {
           className=" hidden  pb-4 sm:flex sm:justify-bottom sm:pr-10 dropdown animate"
           id="dpdown"
         >
-        <a
+          <a
             href="/"
             className="block sm:px-3 px-2 py-1 m-1 hover:bg-gray-300 rounded"
           >
@@ -115,9 +113,9 @@ export default function Navbar() {
           </a>
           <a
             href="/blog"
-            className="block sm:px-3 px-2 py-1 m-1 bg-gray-700 text-white hover:bg-gray-300 hover:text-gray-900 rounded-full  "
+            className="block sm:px-3 px-2 py-1 m-1 sm:bg-gray-700 sm:text-white hover:bg-gray-300 hover:text-gray-900 rounded-full  "
           >
-           <p className="px-2  "> BLOG </p> 
+            <p className="sm:px-2  "> BLOG </p>
           </a>
         </div>
       </header>
