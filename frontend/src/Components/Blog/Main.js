@@ -79,26 +79,41 @@ export default class Main extends Component {
             var id = "/post/" + post.id;
             return (
               <div className="shadow-lg my-8 mx-4 bg-gray-100 bg-opacity-50 postcard animate rounded ">
-                <div
-                  className="text-2xl leading-tight font-heading sm:text-3xl py-6 sm:px-20 px-8 "
-                  dangerouslySetInnerHTML={{ __html: post.title.rendered }}
-                />
-                    
-                    <div className="px-10 pb-6 sm:px-20 sm:pb-10 ">
+                <div className="flex w-full flex-col sm:flex-row">
+                  <div
+                    id="theimagediv"
+                    className="sm:w-1/2 border border-black flex justify-center  "
+                  >
+                    <img
+                      id="postthumb"
+                      className="rounded-lg object-cover object-center"
+                      src={post.jetpack_featured_media_url}
+                    />
+                  </div>
+                  <div id="content" className="sm:w-1/2">
+                    <div
+                      className="text-2xl leading-tight font-heading sm:text-3xl py-6 sm:pl-20 px-8 "
+                      dangerouslySetInnerHTML={{ __html: post.title.rendered }}
+                    />
+
+                    <div className="px-10 pb-6 sm:pl-20 sm:pb-10 ">
                       {/* <p >{post.excerpt.rendered} </p> */}
                       <div
                         className="pb-4"
-                        dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}
+                        dangerouslySetInnerHTML={{
+                          __html: post.excerpt.rendered,
+                        }}
                       />
-                      <img id="postthumb"  className="rounded-lg" src={post.jetpack_featured_media_url}/>
-                
-                
-                    <Link
-                      to={id}
-                      className="bg-gray-700 rounded-full py-2 px-5 my-4 text-white" >
-                      Read More
-                    </Link>
-
+                    </div>
+                  </div>
+                </div>
+                <div className="w-full text-right p-6  sm:p-5">
+                  <Link
+                    to={id}
+                    className="bg-gray-700 rounded-full py-2 px-5 my-4 text-white "
+                  >
+                    Read More
+                  </Link>
                 </div>
               </div>
             );
