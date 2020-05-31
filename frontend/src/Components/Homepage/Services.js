@@ -34,7 +34,7 @@ export default function Services() {
   return (
     <div
       id="services"
-      className="w-screen bg-fixed bg-center bg-cover h-screen overflow-y-auto "
+      className="w-screen bg-fixed bg-center bg-cover overflow-y-auto "
       style={{
         backgroundImage:
           "url('https://images.unsplash.com/photo-1565530995968-2e619c04a8a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=60')",

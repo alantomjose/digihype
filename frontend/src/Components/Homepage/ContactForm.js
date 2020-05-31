@@ -48,7 +48,7 @@ export default class ContactForm extends Component {
       // <div className="w-screen">
       <div
         id="contact"
-        className=" bg-fixed bg-center bg-cover h-screen flex flex-col items-left w-screen "
+        className=" bg-fixed bg-center bg-cover flex flex-col items-left w-screen "
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')",
