@@ -21,7 +21,7 @@ export default class ContactForm extends Component {
   };
 
   handleSubmit(e) {
-    alert("Submission Successfull");
+    
 
     e.preventDefault();
     window.scrollTo({
@@ -29,6 +29,7 @@ export default class ContactForm extends Component {
       left:0,
       behavior:"smooth"
     })
+    alert("Submission Successfull");
     // console.log("submitted");
     const { firstname, lastname, email, message } = this.state;
     const form = axios
