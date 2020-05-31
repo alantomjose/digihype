@@ -6,9 +6,20 @@ import Services from "./Services";
 import "./Header.css";
 
 export default function Header() {
+  const scrollDown=()=>{
+    window.scrollTo({
+      top:1020,
+      left:0,
+      behavior:"smooth"
+    })
+  }
   return (
-    <div className="" id="header">
-      <div className=" ">
+    <div className="relative" id="header">
+    {/* scroll Arrow */}
+    <div className="absolute text-6xl text-black" onClick={()=>{scrollDown()}} id="scrollarrow">
+     <i className="fa m-1 fa-angle-double-down"></i>
+    </div>
+      <div className="">
         <div className="w-screen bg-fixed bg-left bg-cover  topbg bg-gray-200 ">
           <div className="  py-24 sm:py-24 sm:mx-24  ">
             <div className="flex flex-col sm:ml-20   ml-12 sm:mt-0 mt-0 justify-around items-center sm:items-start mr-8 fade">

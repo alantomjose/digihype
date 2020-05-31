@@ -41,3 +41,21 @@
   bottom: 1%;
   right: 25%;
 }
+
+#scrollarrow{
+    bottom: 20%;
+    right: 50%;
+    animation: move 1.5s ease-out infinite;
+}
+
+@keyframes move{
+    0%{
+        transform: translate(0%,0%);
+    }
+    50%{
+        transform: translate(0%,10%);
+    }
+    100%{
+        transform: translate(0%,0%);
+    }
+}
