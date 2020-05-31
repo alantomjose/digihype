@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <div className="relative" id="header">
     {/* scroll Arrow */}
-    <div className="absolute text-6xl text-black" onClick={()=>{scrollDown()}} id="scrollarrow">
+    <div className="absolute text-6xl text-black hidden lg:block" onClick={()=>{scrollDown()}} id="scrollarrow">
      <i className="fa m-1 fa-angle-double-down"></i>
     </div>
       <div className="">
