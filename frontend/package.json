@@ -20,7 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "postcss src/css/tailwind.css -o src/build/tailwind.css",
+    "build": "react-scripts build",
+    "buildt": "postcss src/css/tailwind.css -o src/build/tailwind.css",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch": "postcss src/css/tailwind.css -o src/build/tailwind.css --watch"

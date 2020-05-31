@@ -31,10 +31,10 @@ export default class Clientsnew extends Component {
             "url('https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')",
         }}
       >
-        <div className="sm:text-6xl text-4xl sm:pt-5 pt-6 sm:ml-24 ml-6 font-heading">
+        <div className="sm:text-6xl text-4xl sm:pt-5 pt-6 sm:ml-24 ml-6 sm:mt-8 font-heading">
           Our Clients
         </div>
-        <div id="carouseldiv " className=" sm:w-1/2 sm:pt-20 pt-4 sm:pl-20">
+        <div id="carouseldiv " className=" sm:w-1/2 sm:pt-16 pt-4 sm:pl-20">
           <div>
             <Slider {...settings}>
               <div>
@@ -70,6 +70,7 @@ export default class Clientsnew extends Component {
             </Slider>
           </div>
         </div>
+        <div className="sm:block h-10 xl:h-16"></div>
       </div>
     );
   }

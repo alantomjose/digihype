@@ -35,36 +35,39 @@ export default function BlogSum() {
           "url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')",
       }}
     >
-    <div id="nextLogo" className="hidden absolute text-4xl animate sm:hidden font-heading text-yellow-300 "> 
-    <i className="fa m-1   fa-arrow-right"></i>
-     </div>
+      <div
+        id="nextLogo"
+        className="hidden absolute text-4xl animate sm:hidden font-heading text-yellow-300 "
+      >
+        <i className="fa m-1   fa-arrow-right"></i>
+      </div>
       <h1
         id="blogheading"
         className="opacity-0 slowanimate sm:text-5xl text-3xl my-3 text-center font-heading"
       >
-        Our Blog
+        Blog
       </h1>
-      <div className="overflow-x-auto md:overflow-hidden ">
-      <div
-        id="blogcards"
-        className="opacity-0 slowanimate flex sm:justify-center justify-between w-screen items-around  sm:mt-24 "
-      >
-        <BlogSumCard
-          title="The Coldest Sunset"
-          desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
-          link="Enter/link"
-        />
-        <BlogSumCard
-          title="The Coldest Sunset"
-          desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
-          link="enterlinktopost"
-        />
-        <BlogSumCard
-          title="The Coldest Sunset"
-          desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
-          link="enterlinktopost"
-        />
-      </div>
+      <div className="overflow-x-auto xl:overflow-hidden ">
+        <div
+          id="blogcards"
+          className="opacity-0 slowanimate flex sm:justify-center justify-between w-screen items-around sm:mt-8 xl:mt-20 "
+        >
+          <BlogSumCard
+            title="The Coldest Sunset"
+            desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+            link="Enter/link"
+          />
+          <BlogSumCard
+            title="The Coldest Sunset"
+            desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+            link="enterlinktopost"
+          />
+          <BlogSumCard
+            title="The Coldest Sunset"
+            desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+            link="enterlinktopost"
+          />
+        </div>
       </div>
       <div id="" className=" text-center m-10  ">
         <Link
@@ -74,6 +77,7 @@ export default function BlogSum() {
           View All
         </Link>
       </div>
+      <div className="sm:block xl:h-6"></div>
     </div>
   );
 }

@@ -1,44 +1,43 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
-#post img{
-    width: 45%;
-    padding: 25px;
-    height: auto;
+#post img {
+  width: 45%;
+  padding: 25px;
+  height: auto;
 }
-@font-face{
-    font-family: 'Lovelo';
-    src: url('./assets/fonts/Lovelo/Lovelo-Black.ttf');
+@font-face {
+  font-family: "Lovelo";
+  src: url("./assets/fonts/Lovelo/Lovelo-Black.ttf");
 }
 
 .topbg {
-    background-image: url("./assets/img/bglaptop.jpg")
-  }
-
-#hero img{
-    width: 350px;
+  background-image: url("./assets/img/bglaptop.jpg");
 }
 
+#hero img {
+  width: 350px;
+}
 
-.social{
-    top:40%
+.social {
+  top: 40%;
 }
 
 #postthumb {
-    width: 350px;
-    padding: 30px;
-    border-radius: 40px;
+  width: 350px;
+  padding: 30px;
+  border-radius: 40px;
 }
 
 /* #blogcards{
     width: 1800px;
 } */
-#nextLogo{
-    top:40%;
-    right: 2%;
+#nextLogo {
+  top: 40%;
+  right: 2%;
 }
 
-#blogviewbtn{
-    bottom: 1%;
-    right: 25%;
+#blogviewbtn {
+  bottom: 1%;
+  right: 25%;
 }
