@@ -40,8 +40,8 @@ export default function Header() {
               </div>
             </div>
           </div>
-          <div className="sm:block h-10 sm:h-64"></div>
-          <div className="sm:block sm:h-8"></div>
+          <div className="sm:block h-6 md:h-56 xl:h-64"></div>
+          <div className="sm:block xl:h-6"></div>
         </div>
         {/* <div className="relative overflow-hidden pb-2/3  ">
           <img className="a w-full hidden sm:inline  " src={curvyLine} />

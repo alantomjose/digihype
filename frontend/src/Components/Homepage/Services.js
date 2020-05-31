@@ -50,7 +50,7 @@ export default function Services() {
         <div className="">
           <div
             id="cardservice"
-            className="flex justify-around opacity-0 slowanimate flex-row flex-wrap h-full sm:mx-16 sm:py-10 py-2"
+            className="flex justify-around opacity-0 slowanimate flex-row flex-wrap h-full sm:mx-16 md:mx-2 lg:mx-16 sm:py-10 py-2"
           >
             <CardService
               num="1"
