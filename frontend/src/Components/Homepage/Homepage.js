@@ -16,7 +16,7 @@ export default function Homepage() {
       {/* <div className="block h-48"></div> */}
       {/* <div className="block h-48"></div> */}
       <Services />
-      <BlogSum/>
+      <BlogSum />
       {/* <Clients /> */}
       <Clientsnew />
       <ContactForm />

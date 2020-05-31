@@ -45,12 +45,12 @@ export default function BlogSum() {
         id="blogheading"
         className="opacity-0 slowanimate sm:text-5xl text-3xl my-3 text-center font-heading"
       >
-        Our Blog
+        Blog
       </h1>
-      <div className="overflow-x-auto md:overflow-hidden ">
+      <div className="overflow-x-auto xl:overflow-hidden ">
         <div
           id="blogcards"
-          className="opacity-0 slowanimate flex sm:justify-center justify-between w-screen items-around  sm:mt-24 "
+          className="opacity-0 slowanimate flex sm:justify-center justify-between w-screen items-around sm:mt-8 xl:mt-20 "
         >
           <BlogSumCard
             title="The Coldest Sunset"
@@ -77,6 +77,7 @@ export default function BlogSum() {
           View All
         </Link>
       </div>
+      <div className="sm:block xl:h-6"></div>
     </div>
   );
 }

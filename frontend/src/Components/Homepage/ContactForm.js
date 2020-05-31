@@ -25,22 +25,23 @@ export default class ContactForm extends Component {
     e.preventDefault();
     // console.log("submitted");
     const { firstname, lastname, email, message } = this.state;
-    const form = axios.post("/api/form", {
-      firstname,
-      lastname,
-      email,
-      message,
-    }).then((res)=>{
-      console.log("submitted");
-
-      this.setState({
-        firstname: "",
-        lastname: "",
-        email: "",
-        message: "",
+    const form = axios
+      .post("/api/form", {
+        firstname,
+        lastname,
+        email,
+        message,
       })
-    })
-    
+      .then((res) => {
+        console.log("submitted");
+
+        this.setState({
+          firstname: "",
+          lastname: "",
+          email: "",
+          message: "",
+        });
+      });
   }
 
   render() {
@@ -54,10 +55,10 @@ export default class ContactForm extends Component {
             "url('https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')",
         }}
       >
-        <div className=" h-40 w-screen  "> </div>
+        <div className=" xl:h-40 w-screen  "> </div>
 
-        <div className=" sm:py-12 py-6 px-2 sm:px-20 md:px-40 lg:px-40   ">
-          <div className="bg-black bg-opacity-50  sm:py-12 py-6  sm:px-20 m-3 sm:mx-0 lg:mx-48 rounded-lg text-center">
+        <div className=" sm:py-12 py-6 px-2 ">
+          <div className="bg-black bg-opacity-50  sm:py-12 py-6  sm:px-20 m-3 sm:mx-0 lg:mx-10 xl:mx-48 rounded-lg text-center ">
             <h1 className="sm:text-5xl text-2xl font-heading text-gray-400 ">
               Contact Us
             </h1>
@@ -132,7 +133,7 @@ export default class ContactForm extends Component {
                     Message
                   </label>
                   <textarea
-                    class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 sm:h-48 h-12 resize-none"
+                    class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 sm:h-48 h-24 resize-none"
                     id="message"
                     name="message"
                     value={this.state.message}
@@ -158,7 +159,7 @@ export default class ContactForm extends Component {
           </div>
         </div>
 
-        <div className="h-40 w-full "> </div>
+        <div className="xl:h-40 w-full "> </div>
       </div>
     );
   }
