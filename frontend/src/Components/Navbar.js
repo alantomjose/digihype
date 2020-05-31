@@ -144,33 +144,9 @@ export default function Navbar() {
           className=" hidden text-white pb-4 sm:flex sm:justify-bottom sm:pr-10 dropdown animate"
           id="dpdown"
         >
-          <a
-            href="/"
-            className="block sm:px-3 px-2 py-1 m-1 hover:bg-gray-300 rounded"
-          >
-            Home
-          </a>
-          <a
-            href="#services"
-            className="block sm:px-3 px-2 py-1 m-1 hover:bg-gray-300 rounded"
-          >
-            About Us
-          </a>
-          <a
-            href="#contact"
-            className="block sm:px-3 px-2 py-1 m-1 hover:bg-gray-300 rounded"
-          >
-            Contact
-          </a>
-          <a
-            href="/blog"
-            className="block sm:px-3 px-2 py-1 m-1 sm:bg-gray-700 sm:text-white hover:bg-gray-300 hover:text-gray-900 rounded-full  "
-          >
-            <p className="sm:px-2  "> BLOG </p>
-          </a>
           {/* Social Media Icons */}
             {/* <div className="sm:ml-8 hidden sm:block ml-2 fixed social"> */}
-              <ul className="social-icons flex flex-row block justify-around  h-auto mt-3 sm:hidden py-3 ">
+            <ul className="social-icons flex flex-row block justify-around  h-auto mt-3 sm:hidden py-3 ">
                 <li>
                   <a
                     href=""
@@ -210,6 +186,32 @@ export default function Navbar() {
               </ul>
             {/* </div> */}
           {/* social media icon end */}
+          
+          <a
+            href="/"
+            className="block sm:px-3 px-2 py-1 m-1 hover:bg-gray-300 rounded"
+          >
+            Home
+          </a>
+          <a
+            href="#services"
+            className="block sm:px-3 px-2 py-1 m-1 hover:bg-gray-300 rounded"
+          >
+            About Us
+          </a>
+          <a
+            href="#contact"
+            className="block sm:px-3 px-2 py-1 m-1 hover:bg-gray-300 rounded"
+          >
+            Contact
+          </a>
+          <a
+            href="/blog"
+            className="block sm:px-3 px-2 py-1 m-1 sm:bg-gray-700 sm:text-white hover:bg-gray-300 hover:text-gray-900 rounded-full  "
+          >
+            <p className="sm:px-2  "> BLOG </p>
+          </a>
+          
         </div>
       </header>
     </div>
