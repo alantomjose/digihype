@@ -25,10 +25,10 @@ export default class ContactForm extends Component {
 
     e.preventDefault();
     window.scrollTo({
-      top:0,
-      left:0,
-      behavior:"smooth"
-    })
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
     // console.log("submitted");
     const { firstname, lastname, email, message } = this.state;
     const form = axios
