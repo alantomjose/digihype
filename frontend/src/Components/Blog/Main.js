@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import alt from '../../Img/postAlt.jpg'
+import alt from "../../Img/postAlt.jpg";
 
 export default class Main extends Component {
   constructor(props) {
@@ -80,18 +80,22 @@ export default class Main extends Component {
             var id = "/post/" + post.id;
             return (
               <div className="shadow-lg my-8 mx-4 bg-gray-100 bg-opacity-50 postcard animate rounded ">
-                <div className="flex w-full flex-col sm:flex-row">
+                <div className="flex w-full flex-col xl:flex-row">
                   <div
                     id="theimagediv"
-                    className="sm:w-1/2  flex justify-center  "
+                    className="xl:w-1/2  flex justify-center  "
                   >
                     <img
-                      id="postthumb"
-                      className="rounded-lg object-cover object-center"
-                      src={post.jetpack_featured_media_url?post.jetpack_featured_media_url:alt}
+                      id="postthumber"
+                      className="rounded-lg object-cover object-center xl:mt-5 xl:ml-10"
+                      src={
+                        post.jetpack_featured_media_url
+                          ? post.jetpack_featured_media_url
+                          : alt
+                      }
                     />
                   </div>
-                  <div id="content" className="sm:w-1/2">
+                  <div id="content" className="xl:w-1/2">
                     <div
                       className="text-2xl leading-tight font-heading sm:text-3xl py-6 sm:pl-20 px-8 "
                       dangerouslySetInnerHTML={{ __html: post.title.rendered }}
