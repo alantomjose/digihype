@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function WhatWeDoCard(props) {
     const mouseOver=()=>{
-        const desc = document.querySelector(`#desc${props.id}`);
+        const desc = document.querySelector(`#Wdesc${props.id}`);
         // console.log(card+"dadsada")
         const title = document.querySelector(`#title${props.id}`);
         // desc.classList.remove('scale-0');
@@ -14,7 +14,7 @@ export default function WhatWeDoCard(props) {
 
     }
     const mouseExit=()=>{
-        const desc = document.querySelector(`#desc${props.id}`);
+        const desc = document.querySelector(`#Wdesc${props.id}`);
         // console.log(card+"dadsada")
         const title = document.querySelector(`#title${props.id}`);
         // desc.classList.add('scale-0');
@@ -39,7 +39,7 @@ export default function WhatWeDoCard(props) {
                         className="text-2xl animate " >
                         {props.title}
                     </span>
-                    <div id={`desc${props.id}`} className="text-sm transform  animate opacity-0" >
+                    <div id={`Wdesc${props.id}`} className="text-sm transform  animate opacity-0" >
                     {props.desc}
                     </div>
                 </div>
