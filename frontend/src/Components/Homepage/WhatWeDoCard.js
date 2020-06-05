@@ -29,7 +29,7 @@ export default function WhatWeDoCard(props) {
                 onMouseLeave={()=>mouseExit()}
                 
                     id="wwdcard"
-                 className=" wwdCard bg-yellow-200 flex flex-col justify-around py-64 px-12 max-w-lg h-full  animate"
+                 className=" wwdCard bg-yellow-200 flex flex-col justify-around py-64 px-12 max-w-lg h-full  "
                  style={{
                         backgroundImage:`url(${props.bg})`
                     }}>
@@ -37,7 +37,7 @@ export default function WhatWeDoCard(props) {
                         className="text-3xl animate " >
                         {props.title}
                     </span>
-                    <div id={`desc${props.id}`} className="text-xl transform  animate opacity-0" >
+                    <div id={`desc${props.id}`} className="text-xl transform  slowanimate opacity-0" >
                     {props.desc}
                     </div>
                 </div>
