@@ -5,6 +5,7 @@ import ContactForm from "./ContactForm";
 import Clientsnew from "./Clientsnew";
 import Clients from "./Clients";
 import BlogSum from "./BlogSum";
+import WhatWeDo from "./WhatWeDo";
 
 export default function Homepage() {
   return (
@@ -15,7 +16,8 @@ export default function Homepage() {
       {/* <div className="block h-64"></div> */}
       {/* <div className="block h-48"></div> */}
       {/* <div className="block h-48"></div> */}
-      <Services />
+      {/* <Services /> */}
+      <WhatWeDo/>
       <BlogSum />
       {/* <Clients /> */}
       <Clientsnew />
