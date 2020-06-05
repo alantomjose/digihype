@@ -7,8 +7,9 @@ export default function WhatWeDoCard(props) {
         const title = document.querySelector(`#title${props.id}`);
         // desc.classList.remove('scale-0');
         desc.classList.remove('opacity-0');
+        desc.classList.remove('text-sm');
         // desc.classList.add('scale-100');
-        title.classList.remove('text-3xl');
+        title.classList.remove('text-2xl');
         title.classList.add('text-6xl');
 
     }
@@ -18,8 +19,9 @@ export default function WhatWeDoCard(props) {
         const title = document.querySelector(`#title${props.id}`);
         // desc.classList.add('scale-0');
         desc.classList.add('opacity-0');
+        desc.classList.add('text-sm');
         // desc.classList.remove('scale-100');
-        title.classList.add('text-3xl');
+        title.classList.add('text-2xl');
         title.classList.remove('text-6xl');
 
     }
@@ -34,10 +36,10 @@ export default function WhatWeDoCard(props) {
                         backgroundImage:`url(${props.bg})`
                     }}>
                     <span id={`title${props.id}`}
-                        className="text-3xl animate " >
+                        className="text-2xl animate " >
                         {props.title}
                     </span>
-                    <div id={`desc${props.id}`} className="text-xl transform  slowanimate opacity-0" >
+                    <div id={`desc${props.id}`} className="text-sm transform  animate opacity-0" >
                     {props.desc}
                     </div>
                 </div>
