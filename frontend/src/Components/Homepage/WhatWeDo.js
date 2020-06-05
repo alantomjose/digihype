@@ -5,7 +5,7 @@ export default function WhatWeDo() {
     return (
         <div className="h-screen relative text-white">
             <div className="text-6xl text-center py-10 text-white w-full absolute font-heading ">What We Do</div>
-            <div className="flex justify-between w-screen bg-orange-400 h-full max-w-screen overflow-hidden">
+            <div className="flex justify-between w-screen bg-orange-400 h-full max-w-screen overflow-auto">
                 
                <WhatWeDoCard id="1" title=" Digital Marketing"
                bg="https://unsplash.it/1500/1500/?image=1083"
