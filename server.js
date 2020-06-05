@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const app = express();
 const path = require("path");
+require('dotenv').config()
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -29,8 +30,8 @@ app.post("/api/form", (req, res) => {
       host: "smtp.gmail.com", // Don’t forget to replace with the SMTP host of your provider
       port: 587,
       auth: {
-        user: "digihypecontactus@gmail.com",
-        pass: "Yellowlemons@500",
+        user:process.env.EMAIL,
+        pass: process.env.PASS,
       },
     });
 
@@ -51,7 +52,7 @@ app.post("/api/form", (req, res) => {
   });
 });
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT ;
 
 app.listen(PORT, () => {
   console.log(`Server Listening on port ${PORT}`);
