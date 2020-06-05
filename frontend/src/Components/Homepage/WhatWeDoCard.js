@@ -10,7 +10,7 @@ export default function WhatWeDoCard(props) {
         desc.classList.remove('text-xs');
         desc.classList.add('text-xl');
         // desc.classList.add('scale-100');
-        title.classList.remove('text-2xl');
+        title.classList.remove('text-3xl');
         title.classList.add('text-6xl');
 
     }
@@ -23,7 +23,7 @@ export default function WhatWeDoCard(props) {
         // desc.classList.remove('scale-100');
         desc.classList.add('text-xs');
         desc.classList.remove('text-xl');
-        title.classList.add('text-2xl');
+        title.classList.add('text-3xl');
         title.classList.remove('text-6xl');
 
     }
@@ -38,7 +38,7 @@ export default function WhatWeDoCard(props) {
                         backgroundImage:`url(${props.bg})`
                     }}>
                     <span id={`title${props.id}`}
-                        className="text-2xl animate " >
+                        className="text-3xl animate " >
                         {props.title}
                     </span>
                     <div id={`desc${props.id}`} className="text-xs transform  animate opacity-0" >
