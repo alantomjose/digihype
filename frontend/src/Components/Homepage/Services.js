@@ -61,7 +61,7 @@ export default function Services() {
             <CardService
               num="2"
               title="Digital Marketing "
-              desc="Need media presence for your brand? We bring PR excellence to you."
+              desc="Integrated Marketing Communications across all Digital platforms."
               icn={Dr}
             />
             <CardService
@@ -74,21 +74,21 @@ export default function Services() {
 
             <CardService
               num="4"
-              title="Influencer marketing  "
+              title="Influencer Marketing  "
               desc="Do you feel that your business is not reaching the intended audience?           
               Well now it will, leave It to us. We will help you break the internet."
               icn={In}
             />
             <CardService
               num="5"
-              title="SEO "
-              desc="Authenticity is our virtue and we aim to provide you with quality content."
+              title="Talent Management"
+              desc=" At Hype Digital, you will find a heartfelt piece of us in everything that we deliver. As someone rightly said that talent hits a target no one else can hit."
               icn={Se}
             />
             <CardService
               num="6"
-              title="Talent Management "
-              desc="At Hype Digital, you will find a heartfelt piece of us in everything that we deliver. As someone rightly said that talent hits a target no one else can hit."
+              title="SEO"
+              desc="Authenticity is our virtue and we aim to provide you with quality content."
               icn={Tm}
             />
           </div>
