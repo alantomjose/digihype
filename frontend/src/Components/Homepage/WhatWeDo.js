@@ -3,8 +3,8 @@ import WhatWeDoCard from './WhatWeDoCard'
 
 export default function WhatWeDo() {
     return (
-        <div className="h-screen">
-            <h1 className="text-6xl text-center ">What We Do</h1>
+        <div className="h-screen relative text-white">
+            <div className="text-6xl text-center py-10 text-white w-full absolute font-heading ">What We Do</div>
             <div className="flex justify-between w-screen bg-orange-400 h-full max-w-screen overflow-hidden">
                 
                <WhatWeDoCard id="1" title=" Digital Marketing"
