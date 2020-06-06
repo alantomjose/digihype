@@ -29,10 +29,10 @@ export default function BlogSum() {
   return (
     <div
       id="blogstart"
-      className="py-6 px-1 sm:px-0   w-fixed bg-fixed bg-center bg-cover relative  "
+      className="py-6 px-1 sm:px-0  w-fixed bg-fixed bg-center bg-cover relative  "
       style={{
         backgroundImage:
-          "url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')",
+          "url('https://images.pexels.com/photos/2035416/pexels-photo-2035416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')",
       }}
     >
       <div
@@ -50,7 +50,7 @@ export default function BlogSum() {
       <div className="overflow-x-auto xl:overflow-hidden ">
         <div
           id="blogcards"
-          className="opacity-0 slowanimate flex sm:justify-center justify-between w-screen items-around sm:mt-8 xl:mt-20 "
+          className="opacity-0 slowanimate flex sm:justify-center justify-between w-screen items-around  sm:mt-8 xl:mt-20 "
         >
           <BlogSumCard
             title="The Coldest Sunset"
@@ -72,7 +72,7 @@ export default function BlogSum() {
       <div id="" className=" text-center m-10  ">
         <Link
           to="/blog"
-          className="bg-gray-700 rounded-full py-2 px-5 text-white text-xl cardt animate"
+          className="bg-gray-900 bg-opacity-75 hover:bg-opacity-100 rounded-full py-2 px-5 text-white text-2xl cardt animate"
         >
           View All
         </Link>

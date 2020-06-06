@@ -619,9 +619,7 @@ video {
 .animate{
   transition: all 0.3s ease-in-out
 }
-.slowanimate{
-  transition: all .8s linear
-}
+
 .opacity{
   opacity: 1 !important;
   transition: opacity 0.5s ease-in-out

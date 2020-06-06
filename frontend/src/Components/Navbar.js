@@ -68,7 +68,7 @@ export default function Navbar() {
   return (
     <div className="fixed w-full z-50 text-lg ">
       <header
-        className=" sm:bg-transparent text-gray-800   sm:flex sm:justify-between sm:pt-3"
+        className=" sm:bg-transparent text-gray-800 sm:flex sm:justify-between sm:pt-3"
         id="navbar"
       >
         <div className="flex justify-between items-center py-3 sm:py-0">
@@ -145,48 +145,48 @@ export default function Navbar() {
           id="dpdown"
         >
           {/* Social Media Icons */}
-            {/* <div className="sm:ml-8 hidden sm:block ml-2 fixed social"> */}
-            <ul className="social-icons flex flex-row block justify-around  h-auto mt-3 sm:hidden py-3 ">
-                <li>
-                  <a
-                    href=""
-                    className="social-icon  bg-gray-300 hover:bg-gray-300 animate  p-3 shadow-lg bg-opacity-25 rounded-full text-2xl "
-                  >
-                    {" "}
-                    <i className="fa m-2   fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href=""
-                    className="social-icon bg-white hover:bg-gray-300 animate   p-3 shadow-lg bg-opacity-25 rounded-full text-2xl"
-                  >
-                    {" "}
-                    <i className="fa m-1 fa-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href=""
-                    className="social-icon bg-white hover:bg-gray-300 animate   p-3 shadow-lg bg-opacity-25 rounded-full text-2xl"
-                  >
-                    {" "}
-                    <i className="fa m-1 fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href=""
-                    className="social-icon bg-white hover:bg-gray-300 animate   p-3 shadow-lg bg-opacity-25 rounded-full text-2xl"
-                  >
-                    {" "}
-                    <i className="fa m-1 fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            {/* </div> */}
+          {/* <div className="sm:ml-8 hidden sm:block ml-2 fixed social"> */}
+          <ul className="social-icons flex flex-row block justify-around  h-auto mt-3 sm:hidden py-3 ">
+            <li>
+              <a
+                href=""
+                className="social-icon  bg-gray-300 hover:bg-gray-300 animate  p-3 shadow-lg bg-opacity-25 rounded-full text-2xl "
+              >
+                {" "}
+                <i className="fa m-2   fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                className="social-icon bg-white hover:bg-gray-300 animate   p-3 shadow-lg bg-opacity-25 rounded-full text-2xl"
+              >
+                {" "}
+                <i className="fa m-1 fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                className="social-icon bg-white hover:bg-gray-300 animate   p-3 shadow-lg bg-opacity-25 rounded-full text-2xl"
+              >
+                {" "}
+                <i className="fa m-1 fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                className="social-icon bg-white hover:bg-gray-300 animate   p-3 shadow-lg bg-opacity-25 rounded-full text-2xl"
+              >
+                {" "}
+                <i className="fa m-1 fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+          {/* </div> */}
           {/* social media icon end */}
-          
+
           <a
             href="/"
             className="block sm:px-3 px-2 py-1 m-1 hover:bg-gray-300 rounded"
@@ -211,7 +211,6 @@ export default function Navbar() {
           >
             <p className="sm:px-2  "> BLOG </p>
           </a>
-          
         </div>
       </header>
     </div>
