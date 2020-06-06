@@ -76,7 +76,7 @@ export default function Navbar() {
           <div>
             <a href="/">
               <h1
-                className="  text-xl px-4 font-bold sm:pb-3 sm:pl-10 font-heading text-black"
+                className=" text-md md:text-xl px-4 font-bold sm:pb-0 sm:pl-10 font-heading text-black"
                 id="smTitle"
               >
                 HYPE Digital
@@ -189,25 +189,25 @@ export default function Navbar() {
 
           <a
             href="/"
-            className="block sm:px-3 px-2 py-1 m-1 hover:bg-gray-300 rounded"
+            className="block sm:px-3 px-2 py-1 mx-1 hover:bg-gray-800 rounded"
           >
             Home
           </a>
           <a
             href="#services"
-            className="block sm:px-3 px-2 py-1 m-1 hover:bg-gray-300 rounded"
+            className="block sm:px-3 px-2 py-1 mx-1 hover:bg-gray-800 rounded"
           >
             About Us
           </a>
           <a
             href="#contact"
-            className="block sm:px-3 px-2 py-1 m-1 hover:bg-gray-300 rounded"
+            className="block sm:px-3 px-2 py-1 mx-1 hover:bg-gray-800 rounded"
           >
             Contact
           </a>
           <a
             href="/blog"
-            className="block sm:px-3 px-2 py-1 m-1 sm:bg-gray-700 sm:text-white hover:bg-gray-300 hover:text-gray-900 rounded-full  "
+            className="block sm:px-3 px-2 py-1 mx-1 sm:bg-gray-700 sm:text-white hover:bg-gray-800  rounded-full  "
           >
             <p className="sm:px-2  "> BLOG </p>
           </a>
