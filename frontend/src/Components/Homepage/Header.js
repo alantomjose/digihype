@@ -6,20 +6,25 @@ import Services from "./Services";
 import "./Header.css";
 
 export default function Header() {
-  const scrollDown=()=>{
+  const scrollDown = () => {
     window.scrollTo({
-      top:1020,
-      left:0,
-      behavior:"smooth"
-    })
-  }
+      top: 1020,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <div className="relative" id="header">
-    <div id="test" className="w-screen  h-48 absolute bottom-0"></div>
-    {/* scroll Arrow */}
-    <div className="absolute text-6xl text-black hidden lg:block" onClick={()=>{scrollDown()}} id="scrollarrow">
-     <i className="fa m-1 fa-angle-double-down"></i>
-    </div>
+      {/* scroll Arrow */}
+      <div
+        className="absolute text-6xl text-black hidden lg:block"
+        onClick={() => {
+          scrollDown();
+        }}
+        id="scrollarrow"
+      >
+        <i className="fa m-1 fa-angle-double-down"></i>
+      </div>
       <div className="">
         <div className="w-screen bg-fixed bg-left bg-cover  topbg bg-gray-200 ">
           <div className="  py-24 sm:py-24 sm:mx-24  ">
@@ -41,8 +46,8 @@ export default function Header() {
               </div>
             </div>
           </div>
-          <div className="sm:block h-6 md:h-56 xl:h-64"></div>
-          <div className="sm:block xl:h-6"></div>
+          <div className="sm:block h-16 md:h-56 xl:h-64"></div>
+          {/* <div className="sm:block xl:h-6"></div> */}
         </div>
         {/* <div className="relative overflow-hidden pb-2/3  ">
           <img className="a w-full hidden sm:inline  " src={curvyLine} />

@@ -14,7 +14,7 @@ export default function WhatWeDoCard(props) {
     desc.classList.remove("text-sm");
     // desc.classList.add('scale-100');
     title.classList.remove("text-3xl");
-    title.classList.add("text-6xl");
+    title.classList.add("text-5xl");
   };
   const mouseExit = () => {
     const desc = document.querySelector(`#Wdesc${props.id}`);
@@ -28,7 +28,7 @@ export default function WhatWeDoCard(props) {
     desc.classList.add("text-sm");
     // desc.classList.remove('scale-100');
     title.classList.add("text-3xl");
-    title.classList.remove("text-6xl");
+    title.classList.remove("text-5xl");
   };
   return (
     <div>
@@ -47,7 +47,7 @@ export default function WhatWeDoCard(props) {
         >
           <span
             id={`title${props.id}`}
-            className="text-3xl animate leading-none tracking-tight  "
+            className="text-3xl font-heading animate leading-none tracking-tight  "
           >
             {props.title}
           </span>

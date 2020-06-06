@@ -34,14 +34,20 @@ export default class Clientsnew extends Component {
         <div className="sm:text-6xl text-4xl sm:pt-5 pt-6 sm:ml-24 ml-6 sm:mt-8 font-heading">
           Our Clients
         </div>
-        <div id="carouseldiv " className=" sm:w-1/2 sm:pt-16 pt-4 sm:pl-20">
+        <div
+          id="carouseldiv "
+          className=" sm:w-1/2 sm:pt-16 pt-4 lg:pl-12  xl:pl-20 "
+        >
           <div>
             <Slider {...settings}>
               <div>
                 <img
-                  className="relative sm:h-16 sm:mx-8 sm:my-12 h-10 mx-8 my-8 "
+                  className="relative sm:h-16 sm:mx-8 sm:my-12 h-10 mx-8 my-8  "
                   src={cg}
                 />
+              </div>
+              <div className="relative font-heading text-2xl lg:text-3xl xl:text-4xl tracking-tight sm:text-center border-b-2 border-black sm:h-16 sm:mx-8 sm:my-12 h-10 mx-4 my-4 lg:pr-10">
+                Vivaa Lux
               </div>
               <div>
                 <img
@@ -49,6 +55,10 @@ export default class Clientsnew extends Component {
                   src={d}
                 />
               </div>
+              <div className="relative font-heading text-2xl lg:text-3xl xl:text-4xl lg:text-center  tracking-tight  border-b-2 border-black  lg:pr-20   lg:h-16  sm:my-10 h-10 mx-4 lg:mx-8  my-4">
+                Sterling Meta Plast India
+              </div>
+              <div></div>
               <div>
                 <img
                   className="relative sm:h-16 sm:mx-8 sm:my-12 h-10 mx-8 my-8"
