@@ -3,7 +3,7 @@ import WhatWeDoCard from "./WhatWeDoCard";
 
 export default function WhatWeDo() {
   return (
-    <div className="relative text-white h-full">
+    <div className="relative text-white h-full z-20">
       <div className="text-6xl text-center py-10 text-white w-full absolute font-heading  ">
         <div className="bg-black bg-opacity-25 inline p-5 shadow-lg rounded">
           What We Do

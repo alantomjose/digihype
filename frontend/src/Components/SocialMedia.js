@@ -3,7 +3,7 @@ import React from "react";
 export default function SocialMedia() {
   return (
     <div>
-      <div className="sm:ml-8 hidden sm:block ml-2 fixed social z-50">
+      <div className="sm:ml-8 hidden sm:block ml-2 fixed social z-10">
         <ul className="social-icons flex flex-col justify-between  h-64  ">
           <li>
             <a

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import CardService from "./CardService";
+import "../../css/animation.css";
 import ScrollMagic from "scrollmagic";
 import Pr from "../../assets/img/publicrelations.png";
 import Dr from "../../assets/img/digitalmark.png";

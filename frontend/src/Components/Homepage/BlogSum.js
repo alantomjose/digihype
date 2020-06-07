@@ -3,6 +3,7 @@ import Post from "../Blog/Post";
 import { Link } from "react-router-dom";
 import BlogSumCard from "./BlogSumCard";
 import ScrollMagic from "scrollmagic";
+import "../../css/animation.css";
 
 export default function BlogSum() {
   useEffect(() => {
