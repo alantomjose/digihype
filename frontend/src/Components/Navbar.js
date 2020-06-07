@@ -194,7 +194,7 @@ export default function Navbar() {
             Home
           </a>
           <a
-            href="#services"
+            href="#test"
             className="block sm:px-3 px-2 py-1 mx-1 hover:bg-gray-800 rounded"
           >
             About Us

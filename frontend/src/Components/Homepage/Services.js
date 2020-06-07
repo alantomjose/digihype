@@ -19,7 +19,7 @@ export default function Services() {
       // duration:100,
       // offset: -25,
     })
-      .setClassToggle("#test", "opacity-100")
+      .setClassToggle("#serviceanim", "opacity-100")
       // .setClassToggle("#cardservice", "opacity-100")
       .addTo(controller);
 
@@ -28,7 +28,7 @@ export default function Services() {
       // duration:100,
       // offset: -10,
     })
-      // .setClassToggle("#test", "opacity-100")
+      // .setClassToggle("#serviceanim", "opacity-100")
       .setClassToggle("#cardservice", "opacity-100")
       .addTo(controller);
   }, []);
@@ -44,7 +44,7 @@ export default function Services() {
       <div className=" container mx-auto pt-10    ">
         <h2
           className="sm:text-5xl text-3xl text-gray-200 text-center font-heading opacity-0 slowanimate"
-          // id="test"
+          id="serviceanim"
         >
           What We Do
         </h2>
