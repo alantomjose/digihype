@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import "./build/tailwind.css";
+import axios from "axios";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Homepage from "./Components/Homepage/Homepage";
 import About from "./Components/About";
@@ -9,6 +10,10 @@ import Main from "./Components/Blog/Main";
 import Post from "./Components/Blog/Post";
 import SocialMedia from "./Components/SocialMedia";
 import Loading from "./Components/Loading";
+import Wordpress from "./Components/Wordpress";
+
+axios.defaults.baseURL =
+  "https://us-central1-hypedigi-app.cloudfunctions.net/app";
 
 function App() {
   const [loading, setLoading] = useState("true");
@@ -41,6 +46,9 @@ function App() {
           <Route path="/post/:id" component={Post} />
           {/* <Post/>
         </Route> */}
+          <Route exact path="/wp" >
+            <Wordpress/>
+          </Route>
         </Router>
       </div>
     );
