@@ -39,7 +39,6 @@ export default class ContactForm extends Component {
       })
       .then((res) => {
         console.log("submitted");
-
         this.setState({
           firstname: "",
           lastname: "",

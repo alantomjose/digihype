@@ -36,7 +36,7 @@ export default function WhatWeDoCard(props) {
         onMouseEnter={() => mouseOver()}
         onMouseLeave={() => mouseExit()}
         id="wwdcard"
-        className=" wwdCard flex flex-col justify-around py-64 px-4 max-w-lg min-h-full bg-center "
+        className=" wwdCard flex flex-col justify-around py-64 px-4 max-w-lg min-h-full bg-center bg-cover bg-no-repeat "
         style={{
           backgroundImage: `url(${props.bg})`,
         }}

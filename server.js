@@ -14,7 +14,6 @@ app.get("*", (req, res) => {
 });
 
 app.post("/api/form", (req, res) => {
-  // console.log(req.body.firstname);
   nodemailer.createTestAccount((err, account) => {
     // console.log("check");
     const htmlEmail = `
@@ -48,8 +47,10 @@ app.post("/api/form", (req, res) => {
         return console.log(err);
       }
       console.log("Message Sent");
+      return res.status(200).send("Success!");
     });
   });
+  return res.status(200).send("Success!");
 });
 
 const PORT = process.env.PORT || 3001;

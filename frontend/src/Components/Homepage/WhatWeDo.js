@@ -13,7 +13,7 @@ export default function WhatWeDo() {
         <WhatWeDoCard
           id="1"
           title=" Public Relations"
-          bg="https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?auto=compress&cs=tinysrgb&dpr=1&h=1200&w=1260"
+          bg="https://images.pexels.com/photos/3184431/pexels-photo-3184431.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260"
           desc="Need media presence for your brand? We bring PR excellence to you"
         />
 
