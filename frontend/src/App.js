@@ -9,6 +9,7 @@ import Main from "./Components/Blog/Main";
 import Post from "./Components/Blog/Post";
 import SocialMedia from "./Components/SocialMedia";
 import Loading from "./Components/Loading";
+import Wordpress from "./Components/Wordpress";
 
 function App() {
   const [loading, setLoading] = useState("true");
@@ -41,6 +42,9 @@ function App() {
           <Route path="/post/:id" component={Post} />
           {/* <Post/>
         </Route> */}
+          <Route exact path="/wp" >
+            <Wordpress/>
+          </Route>
         </Router>
       </div>
     );
