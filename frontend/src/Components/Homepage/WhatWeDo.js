@@ -42,8 +42,7 @@ export default function WhatWeDo() {
           id="5"
           title="Influencer Marketing"
           bg="https://images.pexels.com/photos/3314294/pexels-photo-3314294.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=1200&w=1260"
-          desc="Do you feel that your business is not reaching the intended audience?           
-          Well now it will, leave It to us. We will help you break the internet."
+          desc="Inspire, influence and drive the message."
         />
 
         <WhatWeDoCard

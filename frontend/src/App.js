@@ -46,8 +46,8 @@ function App() {
           <Route path="/post/:id" component={Post} />
           {/* <Post/>
         </Route> */}
-          <Route exact path="/wp" >
-            <Wordpress/>
+          <Route exact path="/wp">
+            <Wordpress />
           </Route>
         </Router>
       </div>
