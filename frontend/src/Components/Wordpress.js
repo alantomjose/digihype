@@ -5,8 +5,6 @@ export default function Wordpress() {
     return (
         <div>
             <div>
-            <h1>Test</h1>
-            <p>sefwjbwjfsjfgjhsfgjsgfjhsfgjhsdfghj</p>
             <iframe src="https://hypeblognet.wordpress.com/blog-2/" height={window.innerHeight} width={window.innerWidth} />         
       </div>
         </div>
