@@ -206,7 +206,7 @@ export default function Navbar() {
             Contact
           </a>
           <a
-            href="/blog"
+            href="/wp"
             className="block sm:px-3 px-2 py-1 mx-1 sm:bg-gray-700 sm:text-white hover:bg-gray-800  rounded-full  "
           >
             <p className="sm:px-2  "> BLOG </p>

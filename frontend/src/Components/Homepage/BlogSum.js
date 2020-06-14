@@ -54,19 +54,22 @@ export default function BlogSum() {
           className="opacity-0 slowanimate flex lg:justify-center justify-between w-screen items-around sm:mt-8 xl:mt-20 "
         >
           <BlogSumCard
-            title="The Coldest Sunset"
-            desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
-            link="Enter/link"
+            title="SALVATORE FERRAGAMO"
+            desc="Salvatore Ferragamo, the name alone is an image of extravagance and advancement. Be that as it may, Ferragamo is in excess of a name...."
+            link="/wp"
+            imagelink="https://hypeblognet.files.wordpress.com/2020/06/a-sf944s_profile-245.png?w=1024"
           />
           <BlogSumCard
-            title="The Coldest Sunset"
-            desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
-            link="enterlinktopost"
+            title="SALVATORE FERRAGAMO"
+            desc="Salvatore Ferragamo, the name alone is an image of extravagance and advancement. Be that as it may, Ferragamo is in excess of a name...."
+            link="/wp"
+            imagelink="https://hypeblognet.files.wordpress.com/2020/06/a-sf944s_profile-435.png?w=1024"
           />
           <BlogSumCard
-            title="The Coldest Sunset"
-            desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
-            link="enterlinktopost"
+            title="SALVATORE FERRAGAMO"
+            desc="Salvatore Ferragamo, the name alone is an image of extravagance and advancement. Be that as it may, Ferragamo is in excess of a name...."
+            link="/wp"
+            imagelink="https://hypeblognet.files.wordpress.com/2020/06/a-sf944s_profile-435.png?w=1024"
           />
         </div>
       </div>

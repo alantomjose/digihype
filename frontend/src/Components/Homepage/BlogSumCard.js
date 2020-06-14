@@ -7,7 +7,7 @@ export default function BlogSumCard(props) {
       <div class="bg-gray-300 bg-opacity-75 max-w-sm flex flex-col h-auto rounded overflow-hidden shadow-lg cardt animate w-64 sm:w-full mx-3 lg:mx-10 xl:mx-16 xl:mb-5">
         <img
           class="w-full h-auto object-fill rounded"
-          src="https://images.unsplash.com/photo-1590755202874-2e48e32ed07a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2032&q=80"
+          src={props.imagelink}
           alt="Sunset in the mountains"
         />
         <div class="px-6 py-4 m-3">
