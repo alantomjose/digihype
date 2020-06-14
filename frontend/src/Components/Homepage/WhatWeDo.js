@@ -49,7 +49,7 @@ export default function WhatWeDo() {
         <WhatWeDoCard
           id="6"
           title="SEO"
-          bg="https://images.pexels.com/photos/2853432/pexels-photo-2853432.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=1200&w=1260"
+          bg="https://images.pexels.com/photos/3774903/pexels-photo-3774903.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=650&w=940"
           desc="Authenticity is our virtue and we aim to provide you with quality content."
         />
       </div>
